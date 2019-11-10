@@ -6,4 +6,4 @@ Run the script using `node bamazonCustomer.js`.
 
 Here's a screen shot of things in action
 
-<img src="./action-shot.png" style="width: 100%; max-width: 250px">
+<img src="./action-shot.png" style="width: 100%; max-width: 350px">
