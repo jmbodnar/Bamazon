@@ -14,6 +14,14 @@ const orderDetails = [
   }
 ];
 
+const connection = mysql.createConnection({
+  host: 'localhost',
+  port: '3306',
+  database: 'bamazon',
+  user: 'root',
+  password: 'docker'
+});
+
 // ===== Functions ===== //
 
 function startOrders() {
@@ -103,13 +111,5 @@ function endProgram() {
 }
 
 // ===== Inits & Listeners ===== //
-
-const connection = mysql.createConnection({
-  host: 'localhost',
-  port: '3306',
-  database: 'bamazon',
-  user: 'root',
-  password: 'docker'
-});
 
 startOrders();
